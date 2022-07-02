@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
+        
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    </head>
+    <body>
+        <nav class="navbar has-shadow">
+            <div class="navbar-brand">
+                <a href="#" class="navbar-item">
+                    <img src="./img/téléchargement.jpeg" alt="">
+                </a>
+                <a class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+
+                <div class="navbar-menu is-active" id="navMenu">
+                    <div class="navbar-start">
+                        <a class="navbar-item"><small>Accueil</small>
+
+                        </a>
+                        <a class="navbar-item"><small>Blog</small>
+
+                        </a>
+                        <a class="navbar-item"><small> Contact</small>
+
+                        </a>
+                    </div>
+                    <div class="navbar-end">
+                        
+                            <div class="navbar-item has-dropdown is-hoverable">
+                                <div class="navbar-link"> <small>Admin</small> </div>
+                                <div class="navbar-dropdown">
+                                    <a href="#" class="navbar-item">Dashboard</a>
+                                    <a href="#" class="navbar-item">Paramètres</a>
+                                    <a href="#" class="navbar-item">Report</a>
+                                    <a href="#" class="navbar-item">Déconnexion</a>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="section">
+            <div class="columns">
+                <div class="column is-5-tablet is-3-desktop is-2-widescreen">
+                    <nav class="menu">
+                        <p class="menu-label"> Menu </p>
+                            <ul class="menu-list">
+                                <li>
+                                    <a href="games.html" class="is-active">
+                                        <span class="incon">
+                                            <i class="fas fa-gamepad"></i>
+                                        </span>
+                                        Jeux
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="orders.html" >
+                                        <span class="incon">
+                                            <i class="fas fa-euro-sign"></i>
+                                        </span>
+                                        Commandes
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="customers.html" >
+                                        <span class="incon">
+                                            <i class="fas fa-address-book"></i>
+                                        </span>
+                                        Clients
+                                    </a>
+                                </li>
+                            </ul>
+                        
+                    </nav>
+                </div>
+                <div class="column">
+                    <h1 class="title"> Jeux</h1>
+                    <nav class="level">
+                        <div class="level-left">
+                            <div class="level-item">
+                                <p class="is-5"> <strong> 7 </strong> jeux</p>
+                            </div>
+                            <div class="level-item">
+                                <div class="field has-addons">
+                                    <p class="control">
+                                        <input type="text" placeholder="Nom, prix, date ..." class="input">
+                                    </p>
+                                    <p class="control">
+                                        <button class="button">Rechercher</button>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="level-item">
+                                <a href="new-game.html" class="button is-info"> Nouveau </a>
+                            </div>
+                        </div>
+                        <div class="level-right">
+                            <div class="level-item">Filtre</div>
+                            <div class="level-item">
+                                <div class="select">
+                                    <select>
+                                        <option >Nom</option>
+                                        <option >Prix</option>
+                                        <option >Date</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+
+                    <div class="columns is-multiline">
+                        <div class="column is-12-tablet is-6-desktop is-4-widescreen" >
+                        <div class="box">
+                            <div class="media">
+                                <div class="media-left">
+                                    <img src="./img/téléchargement.jpeg" alt="">
+                                </div>
+                                <div class="media-content">
+                                    <p class="title is-5 is-spaced is-marginless">
+                                        <a href="edit-book.html"> logo Apple</a>
+                                    </p>
+                                    <p class="subtitle is-marginless">2000€</p>
+                                    <div class="content is-small"> 02 septembre 2024 <br>
+                                        Smartphone, pliable <br>
+                                        <a href="edit-book.html">Editer</a>
+                                        <span></span>
+                                        <a href="delete-book.html">Supprimer</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+
+                    <div class="column is-12-tablet is-6-desktop is-4-widescreen" >
+                        <div class="box">
+                            <div class="media">
+                                <div class="media-left">
+                                    <img src="./img/téléchargement.jpeg" alt="">
+                                    </div>
+                                <div class="media-content">
+                                    <p class="title is-5 is-spaced is-marginless">
+                                        <a href="edit-book.html"> logo Apple</a>
+                                    </p>
+                                    <p class="subtitle is-marginless">2000€</p>
+                                    <div class="content is-small"> 02 septembre 2024 <br>
+                                            Smartphone, pliable <br>
+                                            <a href="edit-book.html">Editer</a>
+                                            <span></span>
+                                            <a href="delete-book.html">Supprimer</a>
+    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class="column is-12-tablet is-6-desktop is-4-widescreen">
+                            <div class="box">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <img src="./img/téléchargement.jpeg" alt="">
+                                    </div>
+                                    <div class="media-content">
+                                        <p class="title is-5 is-spaced is-marginless">
+                                            <a href="edit-book.html"> logo Apple</a>
+                                        </p>
+                                        <p class="subtitle is-marginless">2000€</p>
+                                        <div class="content is-small"> 02 septembre 2024 <br>
+                                                Smartphone, pliable <br>
+                                            <a href="edit-book.html">Editer</a>
+                                            <span></span>
+                                            <a href="delete-book.html">Supprimer</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                                
+                            <div class="column is-12-tablet is-6-desktop is-4-widescreen">
+                                <div class="box">
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <img src="./img/téléchargement.jpeg" alt="">
+                                        </div>
+                                        <div class="media-content">
+                                            <p class="title is-5 is-spaced is-marginless">
+                                                <a href="edit-book.html"> logo Apple</a>
+                                            </p>
+                                            <p class="subtitle is-marginless">2000€</p>
+                                            <div class="content is-small"> 02 septembre 2024 <br>
+                                                    Smartphone, pliable <br>
+                                                    <a href="edit-book.html">Editer</a>
+                                                    <span></span>
+                                                    <a href="delete-book.html">Supprimer</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+
+                                <div class="column is-12-tablet is-6-desktop is-4-widescreen">
+                                    <div class="box">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <img src="./img/téléchargement.jpeg" alt="">
+                                            </div>
+                                            <div class="media-content">
+                                                <p class="title is-5 is-spaced is-marginless">
+                                                    <a href="edit-book.html"> logo Apple</a>
+                                                </p>
+                                                <p class="subtitle is-marginless">2000€</p>
+                                                <div class="content is-small"> 02 septembre 2024 <br>
+                                                        Smartphone, pliable <br>
+                                                        <a href="edit-book.html">Editer</a>
+                                                        <span></span>
+                                                        <a href="delete-book.html">Supprimer</a>                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+
+                                    <div class="column is-12-tablet is-6-desktop is-4-widescreen" >
+                                        <div class="box">
+                                            <div class="media">
+                                                <div class="media-left">
+                                                    <img src="./img/téléchargement.jpeg" alt="">
+                                                </div>
+                                                <div class="media-content">
+                                                    <p class="title is-5 is-spaced is-marginless">
+                                                        <a href="edit-book.html"> logo Apple</a>
+                                                    </p>
+                                                    <p class="subtitle is-marginless">2000€</p>
+                                                    <div class="content is-small"> 02 septembre 2024 <br>
+                                                            Smartphone, pliable <br>
+                                                            <a href="edit-book.html">Editer</a>
+                                                            <span></span>
+                                                            <a href="delete-book.html">Supprimer</a>                    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+
+                                        <div class="column is-12-tablet is-6-desktop is-4-widescreen" >
+                                            <div class="box">
+                                                <div class="media">
+                                                    <div class="media-left">
+                                                        <img src="./img/téléchargement.jpeg" alt="">
+                                                    </div>
+                                                    <div class="media-content">
+                                                        <p class="title is-5 is-spaced is-marginless">
+                                                            <a href="edit-book.html"> logo Apple</a>
+                                                        </p>
+                                                        <p class="subtitle is-marginless">2000€</p>
+                                                        <div class="content is-small"> 02 septembre 2024 <br>
+                                                                Smartphone, pliable <br>
+                                                                <a href="edit-book.html">Editer</a>
+                                                                <span></span>
+                                                                <a href="delete-book.html">Supprimer</a>                        
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            </div>
+                                                
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="main.js"></script>
+    </body>
+</html>
